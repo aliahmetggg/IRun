@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "700848320833",
+    "project_id": "irun-ed518",
+    "storage_bucket": "irun-ed518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700848320833:android:0cad596f7d8749f02371c0",
+        "android_client_info": {
+          "package_name": "com.carto.hellomap.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700848320833-q5ea1h2qp8lkqdo0okkrdip604tea002.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carto.hellomap.android",
+            "certificate_hash": "61d3fc5c50f1cdfd5989a5c8e4ed94e463a84291"
+          }
+        },
+        {
+          "client_id": "700848320833-1i60u5lcsufsk7o93kuuavp4uua9nqpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvExVntnHgUBKWvGR1xSn0E2MwTmDrzWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700848320833-1i60u5lcsufsk7o93kuuavp4uua9nqpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

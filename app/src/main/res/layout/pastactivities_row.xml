@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_liste_elemani"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:hint="0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:hint="0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:hint="0"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/info_button"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/app_name"
+            android:padding="5dp"
+            android:src="@drawable/icons8_info_48"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

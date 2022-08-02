@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">HelloMapAndroid</string>
+    <string name="chip_button">Başla</string>
+</resources>

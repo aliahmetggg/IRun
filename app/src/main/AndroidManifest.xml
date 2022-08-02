@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carto.hellomap.android">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_180"
+        android:label="IRun"
+        android:supportsRtl="true">
+
+
+        <activity
+            android:name=".Controllers.OpeningPageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+       </activity>
+        <activity android:name=".Controllers.HelloMapActivity"/>
+        <activity android:name=".Controllers.LoginActivity"/>
+        <activity android:name=".Controllers.LoginWithGoogle"/>
+        <activity android:name=".Controllers.PastActivitiesActivity"/>
+        <activity android:name=".Controllers.ActivityInfoActivity"/>
+        <activity android:name=".Controllers.DashboardActivity"/>
+        <activity android:name=".Controllers.MainActivity2"/>
+        <activity android:name=".Controllers.MainActivity"/>
+        <activity android:name=".Controllers.LeaderboardActivity"/>
+        <activity android:name=".Controllers.RegisterActivity"/>
+        <activity android:name=".Controllers.SignUpWithGoogle"/>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:textDirection="locale"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="150dp"
+        android:layout_height="58dp"
+        android:background="@drawable/round_corner"
+        android:drawableStart="@drawable/ic_reg"
+        android:text="KAYIT OL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_corner"
+        android:drawableStart="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_corner"
+        android:ems="10"
+        android:hint="  E-mail"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <EditText
+        android:id="@+id/surnameRegister"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_corner"
+        android:ems="10"
+        android:hint="  Soyad"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_corner"
+        android:ems="10"
+        android:hint="  Ad"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:background="@drawable/round_corner"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <TextView
+        android:id="@+id/loginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hesabın var mı? Giriş yap."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpButton"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="167dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/png_transparent_login_computer_icons_avatar_icon_monochrome_black_silhouette"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/signUpWithGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google hesabın ile kayıt ol!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginPage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
